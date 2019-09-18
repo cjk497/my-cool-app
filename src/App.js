@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <img width="500"
+        alt="Panda Bear Waving"
+        src="https://www.telegraph.co.uk/content/dam/news/2016/08/23/106598324PandawaveNEWS-xlarge_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg"/>
+      <h1>I'm a Panda Bear</h1>
+      <a href="https://www.amazon.com/Kung-Panda-Widescreen-Jack-Black/dp/B001ECQ75A">I sound like Jack Black!</a>
+      <h2>我是熊猫啊 !!!</h2>
+      <p></p>
+
     </div>
   );
 }
